@@ -8,6 +8,7 @@
 
 import Foundation
 class District {
+    
     var name: String
     var cityCode: Int
     var code: Int
@@ -22,7 +23,9 @@ class District {
         guard let name = dictionary["Name"] as? String,
             let districtCode = dictionary["DistrictCode"] as? Int,
             let cityCode = dictionary["CityCode"] as? Int
-            else {return nil}
+            else { return nil }
         self.init(name: name, cityCode: cityCode, code: districtCode)
     }
 }
+
+

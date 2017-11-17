@@ -10,6 +10,19 @@ import Foundation
 class DataServices {
     static let shared = DataServices()
     
+    //MARK: finish
+    var KQ: [String : Any] = ["City": "AAA","Distric": "AAA", "GioTinh": "AAA", "Age": 18]
+    
+    var selectCity: String?{
+        didSet{
+            if let select = selectCity {
+                KQ["City"] = select
+            }
+        }
+    }
+    
+    
+    //MARK: Load Citys
     var selectedCityCode : Int? {
         didSet {
             if selectedCityCode != nil {
@@ -49,6 +62,15 @@ class DataServices {
         }
     }
     
+    //MARK: Load Districts
+    var selectDistric: String?{
+        didSet{
+            if let select = selectDistric {
+                KQ["Distric"] = select
+            }
+        }
+    }
+    
     var districts: [District] {
         get {
             if _districts == nil {
@@ -77,5 +99,24 @@ class DataServices {
             }
         }
     }
+    //MARK: Gioi Tinh
+    var gioiTinh: String?{
+        didSet{
+            if let select = gioiTinh {
+                KQ["GioTinh"] = select
+            }
+        }
+    }
+    
+    //MARK: AGE Select
+    var arrayAge: [Int] = Array(1...100)
+    var selectPickerView: Int? = 18{
+        didSet{
+            if let select = selectPickerView {
+                KQ["Age"] = select
+            }
+        }
+    }
+    
     
 }

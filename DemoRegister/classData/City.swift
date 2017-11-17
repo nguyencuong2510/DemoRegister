@@ -11,6 +11,7 @@ class City{
     
     var name: String
     var code: Int
+    
     init(name: String, code: Int) {
         self.name = name
         self.code = code

@@ -33,7 +33,7 @@ class PlistServices {
         } catch {
             print("Error: PropertyListSerialization error")
         }
-        print("get \(plist): \n \(result)")
+//        print("get \(plist): \n \(result)")
         return result
     }
 }

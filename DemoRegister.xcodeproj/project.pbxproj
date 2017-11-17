@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3772A51FBED0E700E4801B /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3772A41FBED0E700E4801B /* AgeViewController.swift */; };
+		5E3772A71FBEDE1B00E4801B /* KetQuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3772A61FBEDE1B00E4801B /* KetQuaViewController.swift */; };
 		5E37E2381FB9195A003B5E14 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E37E2341FB91210003B5E14 /* Cities.plist */; };
 		5E3B9C061FBC0C1E002FA8EB /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B9C051FBC0C1E002FA8EB /* City.swift */; };
 		5E3B9C0A1FBC3373002FA8EB /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B9C091FBC3373002FA8EB /* District.swift */; };
 		5E3CC32B1FB85BED006DA05D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3CC32A1FB85BED006DA05D /* AppDelegate.swift */; };
-		5E3CC32D1FB85BED006DA05D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3CC32C1FB85BED006DA05D /* ViewController.swift */; };
+		5E3CC32D1FB85BED006DA05D /* GioiTinhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3CC32C1FB85BED006DA05D /* GioiTinhViewController.swift */; };
 		5E3CC3321FB85BED006DA05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3CC3311FB85BED006DA05D /* Assets.xcassets */; };
 		5E3CC3351FB85BED006DA05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3CC3331FB85BED006DA05D /* LaunchScreen.storyboard */; };
 		5E3D6BB51FBD241F00D27737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3D6BB41FBD23AA00D27737 /* Main.storyboard */; };
@@ -24,12 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E3772A41FBED0E700E4801B /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		5E3772A61FBEDE1B00E4801B /* KetQuaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetQuaViewController.swift; sourceTree = "<group>"; };
 		5E37E2341FB91210003B5E14 /* Cities.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		5E3B9C051FBC0C1E002FA8EB /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		5E3B9C091FBC3373002FA8EB /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
 		5E3CC3271FB85BED006DA05D /* DemoRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3CC32A1FB85BED006DA05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E3CC32C1FB85BED006DA05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E3CC32C1FB85BED006DA05D /* GioiTinhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GioiTinhViewController.swift; sourceTree = "<group>"; };
 		5E3CC3311FB85BED006DA05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E3CC3341FB85BED006DA05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E3CC3361FB85BED006DA05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,9 +101,11 @@
 		5E3D6BAB1FBD1F7800D27737 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5E3CC32C1FB85BED006DA05D /* ViewController.swift */,
 				5EEC53721FBAA39800A120FD /* CityTableViewController.swift */,
 				5EEC53741FBAA3AE00A120FD /* DistricTableViewController.swift */,
+				5E3CC32C1FB85BED006DA05D /* GioiTinhViewController.swift */,
+				5E3772A41FBED0E700E4801B /* AgeViewController.swift */,
+				5E3772A61FBEDE1B00E4801B /* KetQuaViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -189,10 +195,12 @@
 			files = (
 				5E3B9C061FBC0C1E002FA8EB /* City.swift in Sources */,
 				5EEC53751FBAA3AE00A120FD /* DistricTableViewController.swift in Sources */,
+				5E3772A51FBED0E700E4801B /* AgeViewController.swift in Sources */,
 				5EEC53731FBAA39800A120FD /* CityTableViewController.swift in Sources */,
-				5E3CC32D1FB85BED006DA05D /* ViewController.swift in Sources */,
+				5E3CC32D1FB85BED006DA05D /* GioiTinhViewController.swift in Sources */,
 				5E3B9C0A1FBC3373002FA8EB /* District.swift in Sources */,
 				5E8D71411FBD83CF00F55761 /* PlistServices.swift in Sources */,
+				5E3772A71FBEDE1B00E4801B /* KetQuaViewController.swift in Sources */,
 				5E3CC32B1FB85BED006DA05D /* AppDelegate.swift in Sources */,
 				5E8D711F1FBD5E6400F55761 /* DataServices.swift in Sources */,
 			);
